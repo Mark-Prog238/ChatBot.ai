@@ -10,42 +10,54 @@ export const Login = () => {
     // Add your login logic here
   };
   return (
-    <div className="bg-white flex items-center justify-center max-h-screen w-screen">
-      <div className="w-full max-w-sm px-6 pt-12">
+    <div className="bg-white min-h-screen w-screen">
+      <div className="container mx-auto px-6 py-8">
         {/* BACK */}
-        <h1 className="font-inter font-black text-2xl mb-6">← Back</h1>
-        {/* LOGO */}
-        <img src="./src/assets/logo.png" alt="" />
+        <h1 className="font-inter font-black text-2xl mb-8">← Back</h1>
 
-        {/* LOGIN CONTAINER */}
-        <h2 className="items-start justify-start ml-5 font-inter font-black">
-          Login To Your Account
-        </h2>
-        <form className="flex flex-col gap-4">
-          <CustomInput
-            label="Email:"
-            type="text"
-            name="email"
-            id="email"
-            value={email}
-            onChange={setEmail}
-          />
-          <CustomInput
-            label="Password:"
-            type="password"
-            name="password"
-            id="password"
-            value={password}
-            onChange={setPassword}
-          />
-
-          {/* Submit btn */}
-          <button onClick={handleSubmit}>
-            <div className="bg-indigo-600 text-white rounded-lg px-4 h-12 py-2 text-center items-center justify-center flex hover:bg-indigo-700 transition-colors font-bold">
-              LOGIN
+        {/* Main Content */}
+        <div className="flex items-center justify-center min-h-[calc(100vh-120px)]">
+          <div className="w-full max-w-sm">
+            {/* LOGO */}
+            <div className="flex justify-center mb-8">
+              <img
+                src="./src/assets/icon.png"
+                alt="Logo"
+                className="w-32 h-32 object-contain"
+              />
             </div>
-          </button>
-        </form>
+
+            {/* LOGIN CONTAINER */}
+            <h2 className="text-center font-inter font-black text-2xl mb-8">
+              Login To Your Account
+            </h2>
+            <form className="flex flex-col gap-4">
+              <CustomInput
+                label="Email:"
+                type="text"
+                name="email"
+                id="email"
+                value={email}
+                onChange={setEmail}
+              />
+              <CustomInput
+                label="Password:"
+                type="password"
+                name="password"
+                id="password"
+                value={password}
+                onChange={setPassword}
+              />
+
+              {/* Submit btn */}
+              <button onClick={handleSubmit}>
+                <div className="bg-indigo-600 text-white rounded-lg px-4 h-12 py-2 text-center items-center justify-center flex hover:bg-indigo-700 transition-colors font-bold">
+                  LOGIN
+                </div>
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   );
