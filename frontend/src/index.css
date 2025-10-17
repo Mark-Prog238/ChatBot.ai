@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fotns/inter/Inter-Italic-VariableFont_opsz\,wght.ttf");
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-inter);
+  font-size: small;
+}
