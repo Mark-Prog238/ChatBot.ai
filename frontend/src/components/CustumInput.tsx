@@ -34,14 +34,16 @@ export const CustomInput = forwardRef<HTMLInputElement, CustomInputProps>(
           onFocus={handleFocus}
           onBlur={handleBlur}
           placeholder=" "
-          className={`peer w-full bg-gray-200 rounded-lg px-3 pt-5 pb-2 text-sm placeholder-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500 ${className}`}
+          className={`peer w-full bg-white/80 backdrop-blur-sm border border-gray-200/50 rounded-xl px-4 pt-6 pb-3 text-sm placeholder-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:border-indigo-500 transition-all duration-200 shadow-sm hover:shadow-md focus:shadow-lg ${className}`}
           {...rest}
         />
 
         <label
           htmlFor={inputId}
-          className={`absolute left-3 text-gray-500 transition-all duration-200 ${
-            shouldFloatLabel ? "top-1 text-[8px]" : "top-3 text-[14px]"
+          className={`absolute left-4 text-gray-500 transition-all duration-200 pointer-events-none ${
+            shouldFloatLabel
+              ? "top-2 text-[11px] font-semibold text-indigo-600"
+              : "top-4 text-sm"
           }`}
         >
           {label}
