@@ -1,11 +1,32 @@
-https://cdn.discordapp.com/attachments/1376646019126788301/1429537510488408267/image.png?ex=68f728ce&is=68f5d74e&hm=8d808da0405bcd3534e401c628a9d1288648d917bfcdff66b1c99531b37af2d1&
+---
 
-https://cdn.discordapp.com/attachments/1376646019126788301/1429537539940679832/image.png?ex=68f728d5&is=68f5d755&hm=54978c00ad9183e71a190ffd5daab117daedd4cf9373f4170609114066f33786&
+![IMG_1](https://i.postimg.cc/L52f02qd/1.png)
 
-https://cdn.discordapp.com/attachments/1376646019126788301/1429537580717969564/image.png?ex=68f728de&is=68f5d75e&hm=aa32e6ed8b1cdd5ac68f426b9e02b07051795e13e264c568cdc3bf35e2de7334&
+---
 
-https://cdn.discordapp.com/attachments/1376646019126788301/1429537680194015312/image.png?ex=68f728f6&is=68f5d776&hm=f1a7b401dfa833dc6359f39d5a3180066538ae84ce5e0513965e7c4dbc056a6b&
+![IMG_2](https://i.postimg.cc/0jPmHP6k/2.png)
 
-https://cdn.discordapp.com/attachments/1376646019126788301/1429537746841767996/image.png?ex=68f72906&is=68f5d786&hm=9dc7b1fd39a0b72be38e92c18f30c0199963d9d91babb0c262aa14c94bb0200b&
+---
 
-https://cdn.discordapp.com/attachments/1376646019126788301/1429537796745334824/image.png?ex=68f72912&is=68f5d792&hm=e18376c0b9a784ee9d4dba823964f1c6da6b134690cdcd67b3b9b731f604525b&
+![IMG_3](https://i.postimg.cc/wMgJbgtB/3.png)
+
+---
+
+![IMG_4](https://i.postimg.cc/Hnd5PdJs/4.png)
+
+---
+
+![IMG_5](https://i.postimg.cc/SRk8tkXy/5.png)
+
+---
+
+![IMG_6](https://i.postimg.cc/SRd9B38q/6.png)
+
+---
+
+![IMG_7](https://i.postimg.cc/nr2myg7h/image.png)
+
+
+
+
+an ai powered chatbot like chatgpt
